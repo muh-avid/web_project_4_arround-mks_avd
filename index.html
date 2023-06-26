@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Di Sekitar A.S</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./vendor/normalize.css" rel="stylesheet">
+    <link href="./vendor/fonts/fonts.css" rel="fonts">
 </head>
 <body>
     <div class="page">
@@ -26,22 +30,75 @@
                 src="./Images/imageProfile.jpg"
                 alt="image profile">
                 <div class="profile__info">
-                    <h2 class="profile__info-heading">Jacques Cousteau</h2>
+                    <div class="profile__info-container">
+                        <h2 class="profile__info-heading">Jacques Cousteau</h2>
+                        <button type="button" class="profile__info-button"><!--in css--></button>
+                    </div>
                     <p class="profile__info-subtitle">Penjelajah</p>
-                    <img
-                    class="profile__info-edit-button"
-                    src="./Images/Vector.png"
-                    alt="button for edit">
                 </div>
-                <img
-                class="profile__add-button"
-                src="./Images/add-button.png"
-                alt="add button">
+                <div class="profile__add-button">
+                    <button>
+                        <img
+                        src="./Images/AddButton.svg"
+                        alt="icon add element">
+                    </button>
+                </div>
             </section>
 
             <section class="elements">
-                
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/kirill-pershin-1088404-unsplash.png"
+                    alt="image lembah yosemite">
+                    <a class="element__title">Lembah Yosemite</a>
+                    <button class="element__like"></button>
+                </div>
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/danau-louise-unsplash.png"
+                    alt="image Danau Louise">
+                    <a class="element__title">Danau Louise</a>
+                    <button class="element__like"></button>
+                </div>
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/pegunungan gundul.png"
+                    alt="image pegunungan gundul">
+                    <a class="element__title">Pegunungan Gundul</a>
+                    <button class="element__like"></button>
+                </div>
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/latemar.png"
+                    alt="image latemar">
+                    <a class="element__title">Latemar</a>
+                    <button class="element__like"></button>
+                </div>
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/vanoiseNational.png"
+                    alt="image Vanoise National">
+                    <a class="element__title">Vanoise National</a>
+                    <button class="element__like"></button>
+                </div>
+                <div class="element">
+                    <img 
+                    class="element__image"
+                    src="./elements/LagodiBraies.png"
+                    alt="image Lago di Braies">
+                    <a class="element__title">Lago di braies</a>
+                    <button class="element__like"></button>
+                </div>
             </section>
+
+            <footer class="footer">
+                <p class="footer__copyright">© 2021 Around The U.S.</p>
+            </footer>
         </main>
     </div>
 </body>
