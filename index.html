@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Di Sekitar A.S</title>
-    <link href="./styles.css" rel="stylesheet">
-    <link href="./vendor/normalize.css" rel="stylesheet">
-    <link href="./vendor/fonts/fonts.css" rel="fonts">
+    <link href="./styles/index.css" rel="stylesheet">
+    <link href="./poup.css" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -36,9 +35,11 @@
                     </div>
                     <p class="profile__info-subtitle">Penjelajah</p>
                 </div>
+                <div class="profile__add">
                     <button type="button" class="profile__add-button">
                         <!--in css-->
                     </button>
+                </div>
                 
             </section>
 
@@ -48,15 +49,16 @@
                     class="element__image"
                     src="./elements/kirill-pershin-1088404-unsplash.png"
                     alt="image lembah yosemite">
-                    <a class="element__title">Lembah Yosemite</a>
+                    <a class="element__text">Lembah Yosemite</a>
                     <button class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
                     class="element__image"
                     src="./elements/danau-louise-unsplash.png"
-                    alt="image Danau Louise">
-                    <a class="element__title">Danau Louise</a>
+                    alt=
+                    "image Danau Louise">
+                    <a class="element__text">Danau Louise</a>
                     <button class="element__like"></button>
                 </div>
                 <div class="element">
@@ -64,7 +66,7 @@
                     class="element__image"
                     src="./elements/pegunungan gundul.png"
                     alt="image pegunungan gundul">
-                    <a class="element__title">Pegunungan Gundul</a>
+                    <a class="element__text">Pegunugan Gundul</a>
                     <button class="element__like"></button>
                 </div>
                 <div class="element">
@@ -72,7 +74,7 @@
                     class="element__image"
                     src="./elements/latemar.png"
                     alt="image latemar">
-                    <a class="element__title">Latemar</a>
+                    <a class="element__text">Latemar</a>
                     <button class="element__like"></button>
                 </div>
                 <div class="element">
@@ -80,7 +82,7 @@
                     class="element__image"
                     src="./elements/vanoiseNational.png"
                     alt="image Vanoise National">
-                    <a class="element__title">Vanoise National</a>
+                    <a class="element__text">vanoise National</a>
                     <button class="element__like"></button>
                 </div>
                 <div class="element">
@@ -88,8 +90,23 @@
                     class="element__image"
                     src="./elements/LagodiBraies.png"
                     alt="image Lago di Braies">
-                    <a class="element__title">Lago di braies</a>
+                    <a class="element__text">Lago di Braies</a>
                     <button class="element__like"></button>
+                </div>
+            </section>
+
+            <section class="edit-popup">
+                
+                <div id="editProfilePopup" class="popup">
+                    <div class="popup-content">
+                        <h2>Edit Profil</h2>
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" placeholder="Nama">
+                        <label for="about">Tentang Saya:</label>
+                        <textarea id="about" placeholder="Tentang Saya"></textarea>
+                        <button class="edit-popup__save-button">Simpan</button>
+                        <button class="edit-popup__close-button">Tutup</button>
+                    </div>
                 </div>
             </section>
 
@@ -97,6 +114,7 @@
                 <p class="footer__copyright">© 2021 Around The U.S.</p>
             </footer>
         </main>
+        <script src="./index.js"></script>
     </div>
 </body>
 </html>

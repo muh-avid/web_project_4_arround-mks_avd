@@ -1,0 +1,9 @@
+.elements {
+    margin: auto;
+    width: 880px;
+    height: 743px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
