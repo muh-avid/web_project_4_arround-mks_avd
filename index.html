@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Di Sekitar A.S</title>
-    <link href="./styles/index.css" rel="stylesheet">
-    <link href="./poup.css" rel="stylesheet">
+    <link href="./pages/index.css" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -95,18 +94,15 @@
                 </div>
             </section>
 
-            <section class="edit-popup">
-                
-                <div id="editProfilePopup" class="popup">
-                    <div class="popup-content">
-                        <h2>Edit Profil</h2>
-                        <label for="name">Nama:</label>
-                        <input type="text" id="name" placeholder="Nama">
-                        <label for="about">Tentang Saya:</label>
-                        <textarea id="about" placeholder="Tentang Saya"></textarea>
-                        <button class="edit-popup__save-button">Simpan</button>
-                        <button class="edit-popup__close-button">Tutup</button>
-                    </div>
+            <section class="popup">    
+                <div id="editProfilePopup" class="popup__content">
+                    <form class="popup__container">
+                        <h2 class="popup__title">Edit Profil</h2>
+                        <input type="text" id="name" placeholder="Nama" class="popup__text">
+                        <input id="about" placeholder="Tentang Saya" class="popup__about">
+                        <button class="popup__save-button">Simpan</button>
+                    </form>
+                    <button class="popup__close-button"></button>
                 </div>
             </section>
 

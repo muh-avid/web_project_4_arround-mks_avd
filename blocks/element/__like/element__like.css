@@ -8,3 +8,8 @@
     background-image: url(/Images/ButtonLike.svg);
     background-color: #fff;
 }
+
+.element__like:hover {
+    cursor: pointer;
+    opacity: 0.6000000238418579;
+}
