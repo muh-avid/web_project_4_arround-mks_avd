@@ -7,8 +7,8 @@
     <title>Di Sekitar A.S</title>
     <link href="./pages/index.css" rel="stylesheet">
 </head>
-<body>
-    <div class="page">
+<body class="page">
+    <div>
         <header class="header">
             <img 
             class="header__logo"
@@ -29,7 +29,7 @@
                 alt="image profile">
                 <div class="profile__info">
                     <div class="profile__info-container">
-                        <h2 class="profile__info-heading">Jacques Cousteau</h2>
+                        <h1 class="profile__info-heading">Jacques Cousteau</h1>
                         <button type="button" class="profile__info-button"><!--in css--></button>
                     </div>
                     <p class="profile__info-subtitle">Penjelajah</p>
@@ -49,7 +49,7 @@
                     src="./elements/kirill-pershin-1088404-unsplash.png"
                     alt="image lembah yosemite">
                     <a class="element__text">Lembah Yosemite</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
@@ -58,15 +58,15 @@
                     alt=
                     "image Danau Louise">
                     <a class="element__text">Danau Louise</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
                     class="element__image"
-                    src="./elements/pegunungan gundul.png"
+                    src="./elements/pegunungan-gundul.png"
                     alt="image pegunungan gundul">
                     <a class="element__text">Pegunugan Gundul</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
@@ -74,7 +74,7 @@
                     src="./elements/latemar.png"
                     alt="image latemar">
                     <a class="element__text">Latemar</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
@@ -82,7 +82,7 @@
                     src="./elements/vanoiseNational.png"
                     alt="image Vanoise National">
                     <a class="element__text">vanoise National</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
                 <div class="element">
                     <img 
@@ -90,7 +90,7 @@
                     src="./elements/LagodiBraies.png"
                     alt="image Lago di Braies">
                     <a class="element__text">Lago di Braies</a>
-                    <button class="element__like"></button>
+                    <button type="button" class="element__like"></button>
                 </div>
             </section>
 
@@ -98,11 +98,12 @@
                 <div id="editProfilePopup" class="popup__content">
                     <form class="popup__container">
                         <h2 class="popup__title">Edit Profil</h2>
-                        <input type="text" id="name" placeholder="Nama" class="popup__text">
-                        <input id="about" placeholder="Tentang Saya" class="popup__about">
-                        <button class="popup__save-button">Simpan</button>
+                        <input type="text" id="name" placeholder="Nama" class="popup__input">
+                        <input id="about" placeholder="Tentang Saya" class="popup__input">
+                        <button type="button" class="popup__save-button">Simpan</button>
+                        <button type="button" class="popup__close-button"></button>
                     </form>
-                    <button class="popup__close-button"></button>
+                    
                 </div>
             </section>
 
