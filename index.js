@@ -3,8 +3,8 @@ let closeditmodalbutton=document.querySelector('.popup__close-button')
 let displayname=document.querySelector('.profile__info-heading')
 let displayabout=document.querySelector('.profile__info-subtitle')
 
-document.querySelector('.popup__save-button')
-.addEventListener('click', saveProfile);
+document.getElementById('myForm').addEventListener('submit', saveProfile);
+
 
 editbutton.addEventListener('click', showEditProfilePopup)
 closeditmodalbutton.addEventListener('click', closeEditProfilePopup)
@@ -13,6 +13,12 @@ var editProfilePopup = document.querySelector("#editProfilePopup");
 
 function showEditProfilePopup() {
   editProfilePopup.classList.add('visible');
+  
+  const name = document.getElementById('name').textContent;
+  const about = document.getElementById('about').textContent;
+  document.getElementById('name').value = name;
+  document.getElementById('about').value = about;
+  document.getElementById('editProfilePopup');
 }
 
 function closeEditProfilePopup() {
