@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-areas: 'avatar info button';
-    margin: 20px auto 50px;
+    margin: 50px auto 50px;
     column-gap: 25px;
 }
 
@@ -13,7 +13,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 15px auto 0;
+        margin: 64px auto 0;
         
     }
 }
