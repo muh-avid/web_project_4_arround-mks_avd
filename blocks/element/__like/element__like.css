@@ -5,7 +5,7 @@
     border: none;
     text-align: center;
     grid-area: like;
-    background-image: url(/Images/ButtonLike.svg);
+    background-image: url(../../../Images/ButtonLike.svg);
     background-color: #fff;
 }
 

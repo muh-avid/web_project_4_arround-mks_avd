@@ -4,7 +4,7 @@
     margin: auto;
     border: 2px solid #fff;
     grid-area: button;
-    background-image: url(/Images/AddButton.png);
+    background-image: url(../../../Images/AddButton.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
